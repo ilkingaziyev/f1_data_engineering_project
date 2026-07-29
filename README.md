@@ -57,3 +57,6 @@ Apache Airflow · Apache Spark (local mode) · Pandas · MinIO (S3) · PostgreSQ
 
 - Spark runs in `local[*]` mode directly inside the PythonOperator process — no `spark-submit` or external cluster required.
 - The streaming branch intentionally uses Pandas rather than Spark: at a 5-minute cadence, Spark's JVM startup cost outweighs the benefit for small (80-150 row) batches.
+
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/7ac2f86a-59da-4e1c-ace1-f1cbcc41bad5" />
+
